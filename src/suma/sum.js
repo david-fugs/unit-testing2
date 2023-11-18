@@ -1,6 +1,6 @@
 function sum(a, b) {
-  if (typeof a != "number") {
-    return "no es numero";
+  if (typeof a != "number" || typeof b != "number") {
+    return 404;
   }else{
     return a + b;
 
